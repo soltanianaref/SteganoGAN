@@ -12,7 +12,7 @@ class BasicEncoder(nn.Module):
     Input: (N, 3, H, W), (N, D, H, W)
     Output: (N, 3, H, W)
     """
-    ss=8
+    sss=8
     add_image = False
 
     def _conv2d(self, in_channels, out_channels):
