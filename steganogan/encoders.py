@@ -34,6 +34,8 @@ class BasicEncoder(nn.Module):
             in_channels=in_channels,
             out_channels=out_channels,
             kernel_size=3,
+            input = torch.rand(4, 3, 10, 10)
+            offset = torch.rand(4, 2 * kh * kw, 8, 8)
             padding=1
         )
 
